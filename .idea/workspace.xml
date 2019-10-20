@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b786d0aa-d901-4901-bc3f-3c28aeb6f456" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best143/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/best143/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/testapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/testapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testapp/templates/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/testapp/templates/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testapp/templates/request.html" beforeDir="false" afterPath="$PROJECT_DIR$/testapp/templates/request.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/testapp/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="b786d0aa-d901-4901-bc3f-3c28aeb6f456" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
