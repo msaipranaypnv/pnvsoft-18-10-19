@@ -189,7 +189,10 @@
             <div class="col-md-1 col-xs-1 col-lg-1 col-sm-1"></div>
 			<div class="col-md-12 col-xs-12 col-lg-12 col-sm-12" style="border:1px solid #000000;padding:3%;background-color:#ffffff;border-radius:10px;box-shadow:5px 5px 18px #676565;">
 			    <h5 style="margin-bottom:3%;text-align:center;">Fields marked <sub style="color:red;font-size:20px;">*</sub> are mandatory</h5>
-				<form class="form-horizontal" action="/home/">
+				<form class="form-horizontal" action="/application/" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+<!--                    <input type="hidden" name="orderid" id="orderid">-->
+                    <input type="hidden" name="amount" id="amount" value="49snippet9">
 					<div class="form-group">
 						<label class="control-label col-sm-2" for="fname">First Name<sup style="color:red;">*</sup></label>
 						<div class="col-sm-10">
@@ -200,6 +203,12 @@
 						<label class="control-label col-sm-2" for="lname">Last Name<sup style="color:red;">*</sup></label>
 						<div class="col-sm-10">
 							<input type="text" class="form-control input" id="lname" placeholder="Enter Last Name......" name="lname" required>
+						</div>
+					</div>
+                    <div class="form-group">
+						<label class="control-label col-sm-2" for="dob">date of birth<sup style="color:red;">*</sup></label>
+						<div class="col-sm-10">
+							<input type="date" class="form-control input" id="dob"  name="dob" required>
 						</div>
 					</div>
 					<div class="form-group">
@@ -245,7 +254,7 @@
 						</div>
 					</div>
 				    <div class="form-group">
-						<label class="control-label col-sm-2" for="address">Address</label>
+						<label class="control-label col-sm-2" for="saddress">Address</label>
 						<div class="col-sm-10">
 						    <label class="control-label" for="Saddress">School Address</label>          
 							<textarea type="text" class="form-control input" id="Saddress" placeholder="Enter School Address....." name="Saddress"></textarea><br>
@@ -323,7 +332,7 @@
 					</div>
 					<div class="form-group" style="margin-top:3%;text-align:center;">
 					    <div class="col-md-12">
-                            <button type="button" class="btn btn-warning" style="color:#640606;font-weight:bold;">Submit & Pay</button>
+                            <button type="submit" class="btn btn-warning" style="color:#640606;font-weight:bold;">Submit & Pay</button>
                             <button type="reset" class="btn btn-warning" style="color:#640606;font-weight:bold;">Reset</button>
                             <button type="button" class="btn btn-warning" style="color:#640606;font-weight:bold;">Cancel</button>
 					    </div>

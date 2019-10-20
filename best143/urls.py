@@ -19,10 +19,10 @@ from testapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('application/',views.app),
-    path('handleresponse/', views.handleresponse),
-    path('home/', views.home),
-    path('handlerequest/', views.handlerequest),
+    path('application/', views.app),
+    # path('handleresponse/', views.handleresponse),
+    # path('home/', views.home),
+    # path('handlerequest/', views.handlerequest),
 
   
 ]
